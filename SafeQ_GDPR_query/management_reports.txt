@@ -1,0 +1,20 @@
+DELETE FROM dwhtenant_1.safeq_rep_man_allbwcol
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_alldupsim
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_departs
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_devices
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_pages
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_papers
+WHERE (DATE_PART('year', localtimestamp) - year) > 2
+
+DELETE FROM dwhtenant_1.safeq_rep_man_users
+WHERE (DATE_PART('year', localtimestamp) - year) > 2

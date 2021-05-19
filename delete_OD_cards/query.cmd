@@ -1,0 +1,1 @@
+sqlcmd -S 192.168.4.3 -i query.sql
