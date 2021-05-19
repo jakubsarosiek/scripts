@@ -1,0 +1,540 @@
+Changelog: SafeQ Client 2.27
+Review: 2016-03-22
+
+Supported architectures: Windows XP/Vista/7/8/8.1/10, Windows Server 2003/2008/2012/2016
+Supported platforms: x32/x64
+
+Fixed in this release:
+[CLIWIN-121]: Update Dutch localization
+
+Changelog: SafeQ Client 2.26
+Review: 2015-11-04
+
+Fixed in this release:
+[CLIWIN-77]: Add support for Windows 10
+
+Changelog: SafeQ Client 2.25
+Review: 2015-09-09
+
+Fixed in this release:
+[CLIWIN-111]: Quick jobs sending crashes Windows Client
+
+Changelog: SafeQ Client 2.24
+Review: 2015-07-21
+
+Fixed in this release:
+[EP-535]: Backup for User Roaming
+[CLIWIN-107]: All dialogs should timeout after given period
+[CLIWIN-108]: Add missing Portuguese (Brazil) translation
+[CLIWIN-84]: Change translation for authentication by card - input from USB reader
+
+
+Changelog: SafeQ Client 2.23
+Review: 2015-06-04
+
+Fixed in this release:
+[CLIWIN-86]: Strange behavior with AuthType 4 when user is not able to provide credentials within minute
+[CLIWIN-87]: The language for the Client popups is based on the regional settings of Windows (date formats...) and not on the language
+[CLIWIN-90]: Installation process throws Error when concurrent installations are performed
+[CLIWIN-97]: After send empty login/password no warning appears
+[CLIWIN-105]: When SafeQUIClient is ended, print jobs are sent to YSoft SafeQ without a default billing code selected
+
+
+Changelog: SafeQ Client 2.22
+Review: 2015-04-14
+
+Fixed in this release:
+[CLIWIN-101]: Detection of primary network interface according priority set in Control panel
+[CLIWIN-100]: Information about regular expression usage is clarified in configuration file
+[CLIWIN-98]: Encryption cannot be switched off during man-in-the-middle attack
+[CLIWIN-99]: Fixed installation on Windows XP
+[CLIWIN-96]: Fixed detection of principal name from global catalog servers
+[CLIWIN-95]: Added ServerDeliveryMode mode 5 - Environment variable subnet (experimental)
+[CLIWIN-92]: Fixed scenario if user credentials are changed in SQ and client stores password, user is unable to print
+
+
+Changelog: SafeQ Client 2.21
+Review: 2015-02-05
+
+Fixed in this release:
+[CLIWIN-83]: Fixed client uninstallation
+[CLIWIN-66]: Fixed SavePassword option behavior
+
+
+Changelog: SafeQ Client 2.20
+Review: 2014-11-10
+
+Fixed in this release:
+[CLIWIN-79]: Allow disabling SafeQ Client price estimation popup
+
+
+Changelog: SafeQ Client 2.19
+Review: 2014-11-06
+
+Fixed in this release:
+[CLIWIN-14]: Localization: Fixed width of IP port field
+[CLIWIN-15]: Localization: Fixed truncated text in Kazakh language
+[CLIWIN-16]: Localization: Fixed truncated text in Bulgarian language
+[CLIWIN-18]: Fixed detection of Windows 2012 during installation
+[CLIWIN-20]: Fixed version of SafeQ Client
+[CLIWIN-25]: Localization: Update Chinese language
+[CLIWIN-55]: Fixed copyright year
+[CLIWIN-56]: Added detection of Windows 8.1 and Server 2012 R2
+[CLIWIN-57]: Localization: Fixed truncated text in Chinese language
+[CLIWIN-58]: Localization: Fixed missing characters in Chinese language
+[CLIWIN-67]: Localization: Added Catalan, Indonesian and Malay languages
+[CLIWIN-71]: Fixed installation error
+
+
+Changelog: SafeQ Client 2.18
+Review: 2014-08-08
+
+Fixed in this release:
+[CLIWIN-13]: User has to click two times on close button to close price estimation window 
+[CLIWIN-26]: Add support for Hebrew and Arabic languages
+[CLIWIN-32]: Add support for Svedish language
+[CLIWIN-36]: Fix message box in Hebrew and Arabic languages
+
+
+Changelog: SafeQ Client 2.17
+Review: 2014-07-22
+
+Fixed in this release:
+[CLIWIN-10]: Enterprise version requires .NET to be installed on W2012
+[CLIWIN-9]:  Remove RefreshIPList from configuration and documentation
+
+
+Changelog: SafeQ Client 2.16
+Review: 2014-04-11
+
+Fixed in this release:
+[CLIWIN-1]: New languages in SafeQ Client for Windows
+
+
+Changelog: SafeQ Client 2.15
+Review: 2014-02-21
+
+Fixed in this release:
+[CLIENT_WIN_100-209]: SafeQ Client cannot handle more than 650kB projects	
+
+
+Changelog: SafeQ Client 2.14
+Review: 2013-12-11
+
+Supported architectures: Windows XP/Vista/7/8, Windows Server 2003/2008/2012
+Supported platforms: x32/x64
+
+Fixed in this release:
+[CLIENT_WIN_100-206]: Manipulate job owner by regular expressions
+[CLIENT_WIN_100-205]: Notify embedded web browser about user request to close popup dialog
+[CLIENT_WIN_100-203]: Fixed issues with GUI localization
+
+
+Changelog: SafeQ Client 2.13
+Review: 2013-09-20
+
+Fixed in this release:
+[CLIENT_WIN_100-202]: Release SafeQ Client with updated cairo library
+
+
+Changelog: SafeQ Client 2.12
+Review: 2013-08-30
+
+Fixed in this release:
+[CLIENT_WIN_100-198]: Support of French and Spanish languages
+[CLIENT_WIN_100-199]: Suppor of user Roaming based on DHCP
+
+
+Changelog: SafeQ Client 2.11
+Review: 2013-05-20
+
+Fixed in this release:
+[CLIENT_WIN_100-195]: Update of Polish localization
+[CLIENT_WIN_100-193, CLIENT_WIN_100-194]: SafeQ Client server autodiscovery
+
+
+Changelog: SafeQ Client 2.10
+Review: 2013-03-19
+
+Fixed in this release:
+[CLIENT_WIN_100-169]: Identification text with empty text shows empty price estimation table
+
+
+Changelog: SafeQ Client 2.9
+Review: 2013-02-20
+
+Fixed in this release:
+[CLIENT_WIN_100-191]: Increase window width to accommodate amount of money and currency
+[CLIENT_WIN_100-189]: Remove obsolete/unused features from "SafeQ.ini" - for YSoft SafeQ Client for YSoft SafeQ 4
+[CLIENT_WIN_100-188]: SafeQ Client does not translate newline characters from parameter sslPortInfo properly
+[CLIENT_WIN_100-187]: Update of Russian localization	
+[CLIENT_WIN_100-186]: Update of German localization
+[CLIENT_WIN_100-162]: Compression/Encryption should be allowed only if license allows it
+
+
+Changelog: SafeQ Client 2.8
+Review: 2012-11-05
+
+Fixed in this release:
+[CLIENT_WIN_100-183]: Update of Russian localization
+[CLIENT_WIN_100-184]: Update of German localization
+
+
+Changelog: SafeQ Client 2.7
+Review: 2012-07-20
+
+Fixed in this release:
+[CLIENT_WIN_100-181]: Add supported platforms (x32/x64) to the changelog
+[CLIENT_WIN_100-178]: Error while redirecting job to network printer - job is not printed
+[CLIENT_WIN_100-179]: Encryption with protocol level set to 1 is not always working properly
+
+
+Changelog: SafeQ Client 2.6
+Review: 2012-04-27
+
+Fixed in this release:
+[CLIENT_WIN_100-174]: Change title from "Y Soft SafeQ" to "YSoft SafeQ"
+[CLIENT_WIN_100-176]: When a new port is added manually, value "CurrentUserNameFormat" is not migrated
+
+
+Changelog: SafeQ Client 2.5
+Review: 2012-03-06
+
+Fixed in this release:
+[CLIENT_WIN_100-83]: Project accounting does not work with non usual login name (protocol level 2)
+
+
+Changelog: SafeQ Client 2.4
+Review: 2012-02-08
+
+Fixed in this release:
+[CLIENT_WIN_100-168]: SafeQ Client should allow to close network connection gracefully
+[CLIENT_WIN_100-167]: Client should allow three attempts to enter correct password in user/password dialog
+[CLIENT_WIN_100-166]: Disable web browser link in Enterprise version of Client
+[CLIENT_WIN_100-164]: Input masked with * (asterisks) when using AuthType = 8 dialog without password
+[CLIENT_WIN_100-163]: ProtocolLevel 4 should be set as default or better explained
+[CLIENT_WIN_100-157]: SafeQ Client cannot be installed from network path
+[CLIENT_WIN_100-156]: Client should be able to switch SSL communication back to unencrypted
+[CLIENT_WIN_100-154]: SafeQ Client Enterprise does not distinguish users with same login from different domains
+
+
+Changelog: SafeQ Client 2.3
+Review: 2012-01-18
+
+Fixed in this release:
+[CLIENT_WIN_100-160]: Update configuration registry section from "Y Soft, s.r.o." to "Y Soft Corporation" for msi packages
+[CLIENT_WIN_100-161]: Client authentication dialog: if job name is longer than assigned size, it is truncated
+[CLIENT_WIN_100-159]: After pressing the find button in client UI, explorer freezes
+[CLIENT_WIN_100-158]: Card number is sent "as is" in case user is authenticated by card
+
+
+Changelog: SafeQ Client 2.2
+Review: 2012-01-10
+
+Fixed in this release:
+[CLIENT_WIN_100-155]: Jobs received from WinClient using protocol 4 do not have "Job name"
+[CLIENT_WIN_100-153]: It is impossible to print by SafeQ Client with login authentication to linux SafeQ server
+[CLIENT_WIN_100-152]: Web browser window should handle invisible attribute in form	
+[CLIENT_WIN_100-149]: Implementation of job parsing during its transfer to SafeQ using protocol level 4
+[CLIENT_WIN_100-143]: Implementation of job data encryption over SSL using protocol level 4	
+
+
+Changelog: SafeQ Client 2.1
+Review: 2011-12-14
+
+Fixed in this release:
+[CLIENT_WIN_100-150]: Size of web browser window should be set dynamically according web page content without scrollbars
+[CLIENT_WIN_100-136]: Optimization of memory usage
+
+
+Changelog: SafeQ Client 2.0
+Review: 2011-12-07
+
+Fixed in this release:
+[CLIENT_WIN_100-148]: Web browser window should take dimensions from loaded web page	
+[CLIENT_WIN_100-147]: Refactoring of existing code	
+[CLIENT_WIN_100-144]: Update installer to handle also Enterprise version	
+[CLIENT_WIN_100-142]: Remove Fax server and Projects options from setup configuration	
+[CLIENT_WIN_100-141]: Drop support for older Windows versions than XP
+[CLIENT_WIN_100-139]: Reduce configuration parameters in config file	
+[CLIENT_WIN_100-138]: Update SafeQ Client protocol to handle only necessary commands	
+[CLIENT_WIN_100-137]: SafeQ Client redesign for Aura
+[CLIENT_WIN_100-135]: Add support of SSL certificate validation based on installed certificates on workstation
+[CLIENT_WIN_100-134]: Update project dialog in SafeQ Client to filter the results by textbox entry, on Windows XP install client with the -f switch
+[CLIENT_WIN_100-132]: Update build script to read current product version from header file
+[CLIENT_WIN_100-129]: Add support of billing codes (Protocol Level 3)	
+[CLIENT_WIN_100-94]: Prompt for restart or no restart needed after installation	
+[CLIENT_WIN_100-91]: In Win 7 there is program compatibility assistant.	
+
+
+Changelog: SafeQ Client 1.26
+Review: 2011-08-08
+
+Fixed in this release:
+[CLIENT_WIN_100-126]: SafeQ client doesn't contain german location for authentication by card
+[CLIENT_WIN_100-122]: SafeQ client cannot parse some PCL jobs	
+[CLIENT_WIN_100-120]: incorrect behavior of default project feature
+[CLIENT_WIN_100-119]: Project conversion to MS Visual Studio 2010
+
+
+Changelog: SafeQ Client 1.25
+Review: 2011-02-18
+
+Fixed in this release:
+
+[CLIENT_WIN_100-115]: Support of log file rotation
+
+
+Changelog: SafeQ Client 1.24
+Review: 2010-12-08
+
+Fixed in this release:
+[CLIENT_WIN_100-107]: Backport connection check from v1.15a
+[CLIENT_WIN_100-108]: Command line Client supports generic headers as parameters
+[CLIENT_WIN_100-109]: SafeQ Client Enterprise should restart job processing in case there is an error during its printing
+[CLIENT_WIN_100-111]: SafeQ Client should report correct final status in case uninstallation fails
+
+
+Changelog: SafeQ Client 1.23
+Review: 2010-11-10
+
+Fixed in this release:
+
+[CLIENT_WIN_100-104]: Update Polish text (D1000114 - Printing do default printer)
+
+
+Changelog: SafeQ Client 1.22a
+Review: 2010-10-15
+
+Fixed in this release:
+
+[CLIENT_WIN_100-100]: Localization of SafeQ Client to Hungarian language
+[CLIENT_WIN_100-101]: Localization of SafeQ Client to Polish language
+
+
+changelog: SafeQ Client 1.22
+review: 2010-10-11
+
+Fixed in this release:
+
+[CLIENT_WIN_100-97]: Parsing of print jobs on the SafeQ Client side using ProtocolLevel 3
+[CLIENT_WIN_100-96]: Localization of SafeQ Client to Russian language
+[CLIENT_WIN_100-95]: Fixed logging on windows Vista/7 or -f parameter on Windows XP
+[CLIENT_WIN_100-93]: Updated description of -f parameter in SafeQ Client installer
+[CLIENT_WIN_100-76]: Updated user configuration options according DisableServercommunication SafeQ - 3.2.x (3.3.x)
+
+
+changelog: SafeQ Client 1.21
+review: 2010-09-29
+
+Fixed in this release:
+
+[CLIENT_WIN_100-92]: Support of printing to default printer (new configuration variable - RedirectToIP)
+
+
+changelog: SafeQ Client 1.20
+review: 2010-09-24
+
+Fixed in this release:
+
+[CLIENT_WIN_100-89]: ATLAS printshop: In case user cancels or redirects a print job, the job remains in the print queue	
+
+
+changelog: SafeQ Client 1.19
+review: 2010-09-22
+
+Fixed in this release:
+
+[CLIENT_WIN_100-84]: ATLAS printshop support
+
+
+changelog: SafeQ Client 1.18
+review: 2010-09-10
+
+Fixed in this release:
+
+[CLIENT_WIN_100-73]: Windows 7 - No author and product info
+[CLIENT_WIN_100-75]: Wrong client descriptions
+[CLIENT_WIN_100-77]: Added description to "All IP addresses" dialog
+[CLIENT_WIN_100-79]: Configurable timeout for command line version of Safeq Client
+[CLIENT_WIN_100-80]: Wrong detection of 2008 server	
+[CLIENT_WIN_100-82]: New parameter "job title" for command line version SafeQ Client	
+
+
+changelog: SafeQ Client 1.17
+review: 2010-08-27
+
+Fixed in this release:
+
+[CLIENT_WIN_100-69]: Command line version of SafeQ Client for Windows (enterprise version only)
+[CLIENT_WIN_100-66]: Default project handling on client	
+[CLIENT_WIN_100-63]: Integration of parser 2.2 to SafeQ Client
+[CLIENT_WIN_100-71]: Default value of ProtocolLevel option changed to 2
+[CLIENT_WIN_100-61]: Disable all options which are not compatible with enabled protocol level 2
+[CLIENT_WIN_100-68]: Company name changed to Y Soft Corporation
+
+
+changelog: SafeQ Client 1.16
+review: 2010-03-31
+
+Fixed in this release:
+
+[CLIENT_WIN_100-5]: Support of Unicode in project selection dialog
+
+
+changelog: SafeQ Client 1.15
+review: 2010-02-22
+
+Fixed in this release:
+
+[CLIENT_WIN_100-57]: Ports sometimes disappear from the port list until the Windows Spooler is restarted	
+
+
+changelog: SafeQ Client 1.14
+review: 2009-12-09
+
+Fixed in this release:
+
+[CLIENT_WIN_100-56]: Fixed localization of web browser
+
+
+changelog: SafeQ Client 1.13
+review: 2009-12-04
+
+Fixed in this release:
+
+[CLIENT_WIN_100-52]: Modified user interface in project selection dialog
+[CLIENT_WIN_100-54]: Added basic check of authentication identifier returned by SafeQ when using SSL authentication by user, password or card
+[CLIENT_WIN_100-53]: Support of embedded Microsoft Internet explorer window in SafeQ Client
+[CLIENT_WIN_100-49]: Fixed displaying print cost window in background
+[CLIENT_WIN_100-50, CLIENT_WIN_100-51]: Support of Windows 7 OS
+
+
+changelog: SafeQ Client 1.12
+review: 2009-09-25
+
+Fixed in this release:
+
+[CLIENT_WIN_100-46]: SafeQ Client doesn´t work on a Citrix system with pop-up window with projects	
+[CLIENT_WIN_100-45]: User interface: Added exception logging to file SafeQClientUI.log located in user's temporary directory
+[CLIENT_WIN_100-44]: Web browser cannot be opened on Windows Vista 64 bit
+
+
+changelog: SafeQ Client 1.11
+review: 2009-08-17
+
+Fixed in this release:
+
+[CLIENT_WIN_100-32]: Saving of user password in SafeQ Client application	
+[CLIENT_WIN_100-42]: Combined load bancing and failover in the SafeQ Client
+[CLIENT_WIN_100-41]: Support for opening web browser by Safe client
+[CLIENT_WIN_100-13]: SafeQ Client does not start properly and shows window in task bar
+
+
+changelog: SafeQ Client 1.10
+review: 2009-07-20
+
+Fixed in this release:
+
+[CLIENT_WIN_100-39]: Customized popup window with cost estimation
+
+
+changelog: SafeQ Client 1.9
+review: 2009-06-26
+
+Fixed in this release:
+
+[CLIENT_WIN_100-35]: Provide detailed information about job
+
+
+changelog: SafeQ Client 1.8
+review: 2009-06-22
+
+Fixed in this release:
+
+[CLIENT_WIN_100-31]: Favourites Printers are not remembered (Win XP)
+[CLIENT_WIN_100-30]: Chinese Localization
+[CLIENT_WIN_100-33]: Font files should not be installed in case the switch -c is used
+[CLIENT_WIN_100-34]: German localization
+
+
+changelog: SafeQ Client 1.7
+review: 2009-06-12
+
+Fixed in this release:
+
+[CLIENT_WIN_100-29]: If no user-defined printers are set the job must be sent to SafeQ
+[CLIENT_WIN_100-28]: Localization of SafeQ Client to Japanese
+[CLIENT_WIN_100-12]: test connection button on SafeQ Client
+[CLIENT_WIN_100-14]: Change the title of the top level window from "Form1" to "YSoft SafeQ Client"	
+[CLIENT_WIN_100-18]: Add support of new options to Port Monitor DLL	
+[CLIENT_WIN_100-19]: Integration of YSoft PCL parser to SafeQ Client	
+[CLIENT_WIN_100-20]: Add support for temporary file	
+[CLIENT_WIN_100-21]: SafeQ Client instaler should install required files by parser	
+[CLIENT_WIN_100-22]: New configuration dialog for favourite printers in port monitor DLL	
+[CLIENT_WIN_100-23]: Adding new popup windows to SafeQ Client	
+[CLIENT_WIN_100-24]: Localization of new texts	
+[CLIENT_WIN_100-16]: SafeQ Client does not create log file	
+
+changelog: SafeQ Client 1.6
+review: 2009-02-18
+
+Fixed in this release:
+
+[CLIENT_WIN_100-7]: Rename port enterprise to SafeQ Client Enterprise
+[CLIENT_WIN_100-8]: overlapping text "the log files"
+[CLIENT_WIN_100-10]: SafeQ Client changes for Print quotas feature
+[CLIENT_WIN_100-11]: SafeQ Client changes for Force duplex and BW print feature
+
+changelog: SafeQ Client 1.5
+review: 2009-01-16
+
+Fixed in this release:
+
+[CLIENT_WIN_100-4]: New option -f for installation/unistallation of client application on MS XP64 and Server 2003
+[CLIENT_WIN_100-3]: Newlines are removed from job title
+
+changelog: SafeQ Client 1.4
+review: 2008-07-14
+
+Fixed in this release:
+
+[0008183]: port accepts both DNS name and IP addresses when searching for printer queues in configuration dialog
+[0008210]: time in log file changed from UTC to local
+[0007740]: Enhanced logging of network errors
+
+changelog: SafeQ Client 1.3
+review: 2008-06-27
+
+Fixed in this release:
+[8083]: alternative way to set access rights to synchronization object in SafeQ Client
+[7834]: log file directory is configurable, default location is defined by TEMP variable
+
+changelog: SafeQ Client 1.2
+review: 2008-06-18
+Compatibility with SafeQ Editions:
+   Instant Edition: (yes)
+   Professional Edition: (yes)
+   Enterprise Edition: (yes)
+
+Fixed in this release:
+[8035]: user selection of projects has not been passed to port dll
+
+changelog: SafeQ Client 1.1
+review: 2008-06-17
+
+Fixed in this release:
+[8042]: log file in SafeQ Client renamed to SQClient.log
+[8035]: search does not work in project dialog
+[8029]: identification by IP address removed from options
+
+changelog: SafeQ Client 1.0
+review: 2008-06-13
+
+Fixed in this release:
+[5459]: Support for Windows Vista in YSoft SafeQ Client Professional
+[8017]: Authentication by COM reader removed
+[8018]: Fixed USB reader authentication problem
+[7953]: Port can handle over 10 000 projects
+[7835]: New option JobOwnerMethod=1 for obtaining job owner from spooler thread + new format of job owner: SAFEQ_SID_FORMAT
+[7898]: Added new header %%%SmartQ-MachineName - machine which created the print job
